@@ -16,7 +16,7 @@ provider "aws" {
 
 
 resource "aws_lightsail_instance" "mt4-lounis-lightsail_instance" {
-  name              = "mt4-lounis-lightsail_instance"
+  name              = "mt4-lounis-lightsail_instance2"
   availability_zone = "us-west-2a"
   blueprint_id      = "amazon_linux_2"
   bundle_id         = "nano_1_0"
